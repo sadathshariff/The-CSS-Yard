@@ -1,0 +1,16 @@
+:root {
+    --text-color: hsl(184, 5%, 40%)
+    --text-bg: hsl(45, 2%, 97%);
+    --primary-color:#2E86C1;
+    --secondary-color:#AED6F1;
+    --danger-color: #FA2A1D;
+    --success-color: #2EBF34;
+    --warning-color: #FF9800;
+
+    --danger-hover: #E74439;
+    --success-hover: #3A8E3D;
+
+    --off-white: #FBFBFB;
+     
+}
+
