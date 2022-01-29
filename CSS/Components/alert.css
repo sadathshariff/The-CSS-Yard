@@ -10,16 +10,16 @@
   border-radius: 4px;
 }
 
-.primary {
+.alert-primary {
   background-color: var(--primary-color);
 }
-.error {
+.alert-error {
   background-color: var(--danger-color);
 }
-.success {
+.alert-success {
   background-color: var(--success-color);
 }
-.warning {
+.alert-warning {
   background-color: var(--warning-color);
 }
 
