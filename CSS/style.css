@@ -7,7 +7,7 @@
 /* Components Css */
 .container {
   min-height: 100vh;
-  width: 80%;
+  width: 85%;
   margin: auto;
   border: 1px solid black;
 }
@@ -24,24 +24,47 @@
   font-weight: 600;
   font-size: 1.5rem;
 }
-.component-container {
+
+.content {
   margin-top: 20px;
-  /* border: 1px solid red; */
+  border: 1px solid blue;
   display: flex;
+  width: 100%;
 }
 
-.component-content {
-  max-width: 100%;
-  flex: 0 0 700px;
-  margin: 0 auto;
-  /* border: 1px solid blue; */
-  margin-left: 350px;
+.side-nav {
+  flex: 0 0 250px;
+  margin: 1rem;
 }
-
+.component-container {
+  flex: 1 1 0%;
+  border: 1px solid yellow;
+  margin: 0 1rem;
+}
+.component-title {
+  margin: 0.5rem 0;
+}
+.component-desc {
+  font-size: 1.2rem;
+  margin: 0.2rem 0.3rem;
+  font-weight: 500;
+}
+.component-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+.component-subHeading {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
 .example-live {
   background-color: var(--off-white);
   max-width: 100%;
   padding: 1.5rem;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
   margin-bottom: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
