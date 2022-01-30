@@ -1,14 +1,14 @@
 :root {
     --text-color: hsl(184, 5%, 40%)
     --text-bg: hsl(45, 2%, 97%);
-    --primary-color:#2E86C1;
+    --primary-color:hsl(204, 80%, 40%);
     --secondary-color:#AED6F1;
-    --danger-color: #FA2A1D;
-    --success-color: #2EBF34;
-    --warning-color: #FF9800;
-    --danger-hover: #E74439;
-    --success-hover: #3A8E3D;
-    --off-white: #FBFBFB;
+    --danger-color: hsl(4, 96%, 35%);
+    --success-color: hsl(122, 80%, 20%);
+    --warning-color: hsl(25, 81%, 37%);
+    --danger-hover: hsl(4, 78%, 56%);
+    --success-hover: hsl(122, 42%, 39%);
+    --off-white: hsl(0, 0%, 98%);
      
 }
 
