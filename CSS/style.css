@@ -1,3 +1,47 @@
 @import url("./basic-styling/color.css");
 @import url("./basic-styling/reset.css");
 @import url("./basic-styling/typography.css");
+
+@import url("./Components/index.css");
+
+/* Components Css */
+.container {
+  min-height: 100vh;
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.navbar {
+  /* width: 100%; */
+  padding: 2rem 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+.nav-header {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.component-container {
+  margin-top: 20px;
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+.component-content {
+  max-width: 100%;
+  flex: 0 0 700px;
+  margin: 0 auto;
+  /* border: 1px solid blue; */
+  margin-left: 350px;
+}
+
+.example-live {
+  background-color: var(--off-white);
+  max-width: 100%;
+  padding: 1.5rem;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1.2rem;
+}
