@@ -1,0 +1,46 @@
+.badge-div {
+  position: relative;
+  max-width: 100%;
+  font-size: 2.3rem;
+  margin: 0 1rem;
+}
+
+.badge-number {
+  font-size: 0.9rem;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  color: var(--off-white);
+  height: 25px;
+  width: 30px;
+  text-align: center;
+  position: absolute;
+  top: -5px;
+  right: -14px;
+}
+.badge-notify {
+  position: absolute;
+  padding: 0.4rem;
+  border-radius: 50%;
+  left: 20px;
+  top: 0px;
+  background-color: var(--danger-color);
+}
+.badge-profile {
+  bottom: 5px;
+  right: 15px;
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 3px solid var(--off-white);
+}
+.badge-profile-offline {
+  background-color: var(--danger-color);
+}
+
+.badge-profile-online {
+  background-color: var(--success-color);
+}
+.badge-profile-dnd {
+  background-color: var(--warning-color);
+}
