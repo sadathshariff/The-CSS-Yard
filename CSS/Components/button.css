@@ -9,6 +9,9 @@
   color: var(--off-white);
   cursor: pointer;
 }
+.btn:focus {
+  outline: none;
+}
 
 /* Basic Buttons */
 .btn-primary {
@@ -89,14 +92,7 @@
 
 /* Float button */
 .btn-float {
-  border: 0;
-  /* padding: 0.5rem 0.6rem; */
-  min-width: 3rem;
-  min-height: 3rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
-}
-
-.btn-float-action {
-  color: var(--red-300);
-  background-color: var(--red-500);
 }
