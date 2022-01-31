@@ -5,12 +5,12 @@
   font-weight: 500;
   margin: 0 10px;
   border: none;
-
   background-color: var(--primary-color);
   color: var(--off-white);
   cursor: pointer;
 }
 
+/* Basic Buttons */
 .btn-primary {
   background-color: var(--primary-color);
 }
@@ -28,6 +28,7 @@
   background-color: var(--warning-color);
 }
 
+/* Outline Buttons */
 .btn-outline-primary {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
@@ -57,6 +58,8 @@
   color: var(--warning-color);
   background-color: var(--off-white);
 }
+
+/* Outline Buttons Hover */
 .btn-outline-primary:hover {
   color: var(--off-white);
   background-color: var(--primary-color);
@@ -79,6 +82,21 @@
   background-color: var(--warning-color);
 }
 
+/* Raised Buttons */
 .btn-raised {
   box-shadow: rgb(0 0 0 / 74%) 0px 4px 8px;
+}
+
+/* Float button */
+.btn-float {
+  border: 0;
+  /* padding: 0.5rem 0.6rem; */
+  min-width: 3rem;
+  min-height: 3rem;
+  border-radius: 50%;
+}
+
+.btn-float-action {
+  color: var(--red-300);
+  background-color: var(--red-500);
 }

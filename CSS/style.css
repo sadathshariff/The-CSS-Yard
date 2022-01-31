@@ -7,7 +7,7 @@
 /* Components Css */
 .container {
   min-height: 100vh;
-  width: 85%;
+  width: 90%;
   margin: auto;
   border: 1px solid black;
 }
@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .nav-header {
   font-weight: 600;
@@ -27,7 +27,7 @@
 
 .content {
   margin-top: 20px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   width: 100%;
 }
