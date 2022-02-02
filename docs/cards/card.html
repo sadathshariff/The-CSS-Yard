@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The CSS Yard: Cards</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css"
+      integrity="sha512-i5X6Fdn/ZqvGSqPrdMa3FgcpXM/Nr6YccSKFYT93zljl/HZDEpvBbE5Pxp91eiWGccZLrL/LDQJd7fjTRYsVaA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../../CSS/style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <nav class="navbar">
+          <div class="header">
+            <a href="" class="nav-header"> The CSS Yard </a>
+          </div>
+        </nav>
+        <div class="content">
+          <div class="side-nav">
+            <h2>Components</h2>
+            <ul>
+              <li><a href="../alert/alert.html">Alert</a></li>
+              <li><a href="../avatar/avatar.html">Avatar</a></li>
+              <li><a href="../badges/badge.html">Badges</a></li>
+              <li><a href="../buttons/button.html">Buttons</a></li>
+              <li><a href="../cards/card.html">Cards</a></li>
+            </ul>
+          </div>
+          <!-- Main content -->
+          <div class="component-container">
+            <h1 class="component-title">Cards</h1>
+            <div class="component-desc">
+                
+            </div>
+  
+            <!-- Components -->
+            <div class="component-content">
+              <div class="component-heading">Card with Badge and Dismiss Button </div>
+              <div class="component-subHeading">
+              </div>
+              <!-- Card with Badge and Dismiss button-->              
+                <div class="example-live card-container">   
+                  <!--Card with Badge  -->
+                  <div class="card card-with-badge">                      
+                    <img src="https://rukminim1.flixcart.com/image/660/792/kshtxu80/shirt/f/f/c/m-wksh1663-wrogn-original-imag6fv928vb4per.jpeg?q=50" alt="Card-Image">
+                      <div class="card-header">
+                      <div class="card-title">Men's Slim fit Shirt</div>
+                      <div class="card-subtitle">
+                        Allen Solly
+                      </div>
+                      </div>
+                      <div class="ecom-card-info">
+                        <p class="ecom-card-price">Rs.2000</p>
+                        <p class="ecom-card-actual-price">Rs.2500</p>
+                        <p class="ecom-card-discount">15% off</p>
+                      </div>
+                      <div class="card-footer">
+                        <button class="btn btn-outline-primary ecom-card-btn"> <i class="fas  fa-shopping-cart"></i> Add to Cart</button>
+                      
+                      </div>
+                  </div>  
+                  <!-- Card with Dismiss Button -->
+                  <div class="card" id="card-dismiss">
+                    <img src="https://rukminim1.flixcart.com/image/660/792/kshtxu80/shirt/f/f/c/m-wksh1663-wrogn-original-imag6fv928vb4per.jpeg?q=50" alt="Card-Image">
+                    <i class="card-close-icon far fa-times-circle"></i>
+                      <div class="card-header">
+                      <div class="card-title">Men Slim fit Shirt</div>
+                      <div class="card-subtitle">
+                        Allen Solly
+                      </div>
+                      </div>
+                      <div class="ecom-card-info">
+                        <p class="ecom-card-price">Rs.2000</p>
+                        <p class="ecom-card-actual-price">Rs.2500</p>
+                        <p class="ecom-card-discount">15% off</p>
+                      </div>
+                      <div class="card-footer ">
+                        <button class="btn btn-outline-primary ecom-card-btn"> <i class="fas  fa-shopping-cart"></i> Add to Cart</button>
+                      </div>
+                  </div>                           
+                </div>
+                </div>
+               <div class="example-code">
+                <pre>
+                 <code class="html hljs xml">
+                     <!--Card with Badge  -->
+                  <div class="card card-with-badge">  
+                    <!--For Card with dismiss icon remove card-with-badge class,
+                    add id="card-dismiss" and add the <i> tag below image -->
+                    <img src="" alt="Card-Image">
+                     <!-- <i class="card-close-icon far fa-times-circle"></i> -->
+                      <div class="card-header">
+                      <div class="card-title">Men's Slim fit Shirt</div>
+                      <div class="card-subtitle">
+                        Allen Solly
+                      </div>
+                      </div>
+                      <div class="ecom-card-info">
+                        <p class="ecom-card-price">Rs.2000</p>
+                        <p class="ecom-card-actual-price">Rs.2500</p>
+                        <p class="ecom-card-discount">15% off</p>
+                      </div>
+                      <div class="card-footer">
+                        <button class="btn btn-outline-primary ecom-card-btn">
+                          <i class="fas fa-shopping-cart"></i>
+                           Add to Cart
+                        </button>                      
+                      </div>
+                  </div>                                                   
+                  </code>
+                 </pre>
+              </div> 
+              
+              <div class="component-heading">Card with Shadow and Overlay Text</div>
+              <div class="component-subHeading">   
+              </div>
+              <div class="example-live card-container">  
+                <!-- Card with shadow -->         
+                  <div class="card card-shadow">
+                  <img src="https://picsum.photos/seed/picsum/300/200" alt="Card-Image">
+                  <div class="card-header">
+                    <div class="card-title">Card Title</div>
+                    <div class="card-subtitle">
+                      Card subtitle
+                    </div>
+                  </div>
+                  <div class="card-info">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
+                  </div>
+                  <div class="card-footer">
+                    <a href="" class="text-btn">Read</a>
+                    <a href="" class="text-btn">Bookmark</a>
+                    <a href=""><i class="card-icon fas fa-heart"></i></a>
+                    <a href=""><i class="card-icon fas fa-share-alt"></i></a>
+                    <a href=""><i class="card-icon fas fa-ellipsis-v"></i></a>                  
+                  </div>
+                  </div>
+                  <!-- Card with Overlay Text -->
+                  <div class="card">
+                    <img src="https://picsum.photos/seed/picsum/300/200" alt="Card-Image">
+                    
+                      <div class="card-title-overlay">
+                        <div class="card-title">Card Title</div>
+                    <div class="card-subtitle">
+                      Card subtitle
+                    </div>
+                      </div>
+                     
+                      <div class="card-info">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="" class="text-btn">Read</a>
+                        <a href="" class="text-btn">Bookmark</a>
+                        <a href=""><i class="card-icon fas fa-heart"></i></a>
+                        <a href=""><i class="card-icon fas fa-share-alt"></i></a>
+                        <a href=""><i class="card-icon fas fa-ellipsis-v"></i></a>
+                      
+                      </div>
+                  </div>                                
+              </div>
+               <div class="example-code">
+                <pre>
+                  <code class="html hljs xml">
+                    <!-- For Card with shadow add the below code -->
+                    <div class="card card-shadow">
+                      <img src="" alt="Card-Image">
+                      <!-- For overlay Text add card-title-overlay class next to card-header-->
+                      <div class="card-header">
+                        <div class="card-title">Card Title</div>
+                        <div class="card-subtitle">
+                          Card subtitle
+                        </div>
+                      </div>
+                      <div class="card-info">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="" class="text-btn">Read</a>
+                        <a href="" class="text-btn">Bookmark</a>
+                        <a href=""><i class="card-icon fas fa-heart"></i></a>
+                        <a href=""><i class="card-icon fas fa-share-alt"></i></a>
+                        <a href=""><i class="card-icon fas fa-ellipsis-v"></i></a>                      
+                      </div>
+                      </div>
+                  </code>
+                </pre>
+              </div> 
+            
+              <!-- Card with Text Overlay -->
+              <div class="component-heading">Card with Text and Horizontal</div>
+              <div class="component-subHeading">
+                
+              </div>
+              <div class="example-live card-container">                 
+                   <!-- Text only Card -->
+                   <div class="card">
+                <div class="card-header">
+                <div class="card-title">Card Title</div>
+                <div class="card-subtitle">
+                  Card subtitle
+                </div>
+                </div>
+                <div class="card-info">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
+                </div>
+                <div class="card-footer">
+                  <a href="" class="text-btn">Read</a>
+                  <a href="" class="text-btn">Bookmark</a>
+                  <a href=""><i class="card-icon fas fa-heart"></i></a>
+                  <a href=""><i class="card-icon fas fa-share-alt"></i></a>
+                  <a href=""><i class="card-icon fas fa-ellipsis-v"></i></a>
+                
+                </div>
+                   </div>
+                   <!-- Horizontal Card -->
+                   <div class="card ">
+                    <div class="card-hor">
+                      <div class="card-img-hor">
+                        <img src="https://picsum.photos/seed/picsum/300/300" alt="Card-Image">
+                      </div>
+                    <div class="card-header">
+                    <div class="card-title">Card Title</div>
+                    <div class="card-subtitle">
+                      Card subtitle
+                    </div>
+                    </div>
+                    </div>
+                    <div class="card-info">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="text-btn">Read</a>
+                      <a href="" class="text-btn">Bookmark</a>
+                      <a href=""><i class="card-icon fas fa-heart"></i></a>
+                      <a href=""><i class="card-icon fas fa-share-alt"></i></a>
+                      <a href=""><i class="card-icon fas fa-ellipsis-v"></i></a>                    
+                    </div>
+                   </div>
+              </div>
+               <div class="example-code">
+            <pre>
+              <code class="html hljs xml">
+                <div class="card ">
+                  <!-- For card with only text remove the card-img-hor div -->
+                  <div class="card-hor">
+                    <div class="card-img-hor">
+                      <img src="" alt="Card-Image">
+                    </div>
+                  <div class="card-header">
+                  <div class="card-title">Card Title</div>
+                  <div class="card-subtitle">
+                    Card subtitle
+                  </div>
+                  </div>
+                  </div>
+                  <div class="card-info">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
+                  </div>
+                  <div class="card-footer">
+                    <a href="" class="text-btn">Read</a>
+                    <a href="" class="text-btn">Bookmark</a>
+                    <a href=""><i class="card-icon fas fa-heart"></i></a>
+                    <a href=""><i class="card-icon fas fa-share-alt"></i></a>
+                    <a href=""><i class="card-icon fas fa-ellipsis-v"></i></a>                  
+                  </div>
+                 </div>
+             </code>
+            </pre>
+              </div>                
+            </div>
+          </div>
+        </div>
+      </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+      integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+    <script src="../../js/codeblock.js"></script>
+  </body>
+</html>
