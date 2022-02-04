@@ -1,15 +1,13 @@
-.round-img {
-  border-radius: 50%;
+.img-md {
   width: 200px;
   height: 200px;
   object-fit: cover;
 }
-
+.round-img {
+  border-radius: 50%;
+}
 .square-img {
   border-radius: 5px;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
 }
 .resp-img {
   width: 100%;
