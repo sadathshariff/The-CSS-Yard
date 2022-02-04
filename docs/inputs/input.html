@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The CSS Yard: Input</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css"
+      integrity="sha512-i5X6Fdn/ZqvGSqPrdMa3FgcpXM/Nr6YccSKFYT93zljl/HZDEpvBbE5Pxp91eiWGccZLrL/LDQJd7fjTRYsVaA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../../CSS/style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <nav class="navbar">
+          <div class="header">
+            <a href="" class="nav-header"> The CSS Yard </a>
+          </div>
+        </nav>
+        <div class="content">
+          <div class="side-nav">
+            <h2>Components</h2>
+            <ul>
+              <li><a href="../alert/alert.html">Alert</a></li>
+              <li><a href="../avatar/avatar.html">Avatar</a></li>
+              <li><a href="../badges/badge.html">Badges</a></li>
+              <li><a href="../buttons/button.html">Buttons</a></li>
+              <li><a href="../cards/card.html">Cards</a></li>
+              <li><a href="../images/image.html">Images</a></li>
+              <li><a href="../inputs/input.html">Input</a></li>
+            </ul>
+          </div>
+          <!-- Main content -->
+          <div class="component-container">
+            <h1 class="component-title">Input</h1>
+             
+            <!-- Components -->
+            <div class="component-content">
+              <div class="component-heading">Input Fields</div>
+              <div class="component-subHeading">  
+                Input is another way the user interacts with websites.         
+              </div>
+              <!-- Input boxes-->
+              <div class="example-live">                                
+                <form>
+                  <div class="input">
+                    <label for="">Username*</label>
+                    <input type="text" name="" class="input-text" />
+                  </div>
+            
+                  <div class="input error">
+                    <label for="">Password*</label>
+                    <input type="password" name="" class="input-text" />
+                    <p class="input-info error-msg">Password is incorrect</p>
+                  </div>
+                  <div class="input">
+                    <label for="">Email address*</label>
+                    <input type="email" name="" class="input-text" />
+                    <p class="input-info">We'll never share your email with anyone else.</p>
+                  </div>
+                  
+                </form>
+                 
+              </div>
+              </div>
+               <div class="example-code">
+                <pre>
+                 <code class="html hljs xml">
+                  <form>                    
+                    <div class="input">
+                        <label for="">Username*</label>
+                        <input type="text" name="" class="input-text" />
+                    </div>                
+                    <div class="input error">
+                        <label for="">Password*</label>
+                        <input type="password" name="" class="input-text" />
+                        <p class="input-info error-msg">Password is incorrect</p>
+                    </div>
+                    <div class="input">
+                        <label for="">Email address*</label>
+                        <input type="email" name="" class="input-text" />
+                        <p class="input-info">We'll never share your email with anyone else.</p>
+                    </div>                                         
+                  </form>                    
+                  </code>
+                 </pre>
+              </div> 
+              
+             
+            <!-- Input Checkbox -->
+              <div class="component-heading">Radio Buttons</div>
+              <div class="component-subHeading">
+                Radio butons are used to select from a set of given values for a particular field
+                
+              </div>
+              <div class="example-live ">
+                <div class="input-radio">
+                  <label for="radio1">
+                    <input type="radio" name="radio" id="radio1" checked />
+                    Checked
+                  </label>
+                </div>
+                <div class="input-radio">
+                  <label for="radio2">
+                    <input type="radio" name="radio" id="radio2" unChecked />
+                    Unchecked
+                  </label>
+                </div>
+                <div class="input-radio disabled">
+                  <label for="radio1">
+                    <input type="radio" name="radio" id="radio1" disabled />
+                    Disabled
+                  </label>
+                </div> 
+              </div>
+                <div class="example-code">
+                <pre>
+                  <code class="html hljs xml">
+                    <div class="input-radio">
+                      <label for="radio1">
+                        <input type="radio" name="radio" id="radio1" checked />
+                        Checked
+                      </label>
+                    </div>
+                    <div class="input-radio">
+                      <label for="radio2">
+                        <input type="radio" name="radio" id="radio2" unChecked />
+                        Unchecked
+                      </label>
+                    </div>
+                    <div class="input-radio disabled">
+                      <label for="radio1">
+                        <input type="radio" name="radio" id="radio1" disabled />
+                        Disabled
+                      </label>
+                    </div> 
+                  </code>
+                </pre>
+              </div>
+              
+              <!-- Radio Button -->
+              <div class="component-heading">Checkbox</div>
+              <div class="component-subHeading">
+                Checkboxes are used to let a user select one or more options of a limited number of choices.
+              </div>
+              <div class="example-live ">
+                <div class="input-checkbox">
+                  <label for="checkbox1">
+                    <input type="checkbox" name="checkbox" id="checkbox1" checked />
+                    Checked
+                  </label>
+                </div>
+                <div class="input-checkbox">
+                  <label for="checkbox2">
+                    <input type="checkbox" name="checkbox" id="checkbox2" unChecked />
+                    Unchecked
+                  </label>
+                </div>
+                <div class="input-checkbox disabled">
+                  <label for="checkbox3">
+                    <input type="checkbox" name="checkbox" id="checkbox3" disabled />
+                    Disabled
+                  </label>
+                </div>
+              </div>
+                <div class="example-code">
+                <pre>
+                  <code class="html hljs xml">
+                    <div class="input-checkbox">
+                      <label for="checkbox1">
+                        <input type="checkbox" name="checkbox" id="checkbox1" checked />
+                        Checked
+                      </label>
+                    </div>
+                    <div class="input-checkbox">
+                      <label for="checkbox2">
+                        <input type="checkbox" name="checkbox" id="checkbox2" unChecked />
+                        Unchecked
+                      </label>
+                    </div>
+                    <div class="input-checkbox disabled">
+                      <label for="checkbox3">
+                        <input type="checkbox" name="checkbox" id="checkbox3" disabled />
+                        Disabled
+                      </label>
+                    </div>
+                  </code>
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+      integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+    <script src="../../js/codeblock.js"></script>
+  </body>
+</html>
