@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The CSS Yard: Images</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css"
+      integrity="sha512-i5X6Fdn/ZqvGSqPrdMa3FgcpXM/Nr6YccSKFYT93zljl/HZDEpvBbE5Pxp91eiWGccZLrL/LDQJd7fjTRYsVaA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../../CSS/style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <nav class="navbar">
+          <div class="header">
+            <a href="" class="nav-header"> The CSS Yard </a>
+          </div>
+        </nav>
+        <div class="content">
+          <div class="side-nav">
+            <h2>Components</h2>
+            <ul>
+              <li><a href="../alert/alert.html">Alert</a></li>
+              <li><a href="../avatar/avatar.html">Avatar</a></li>
+              <li><a href="../badges/badge.html">Badges</a></li>
+              <li><a href="../buttons/button.html">Buttons</a></li>
+              <li><a href="../cards/card.html">Cards</a></li>
+              <li><a href="../images/image.html">Images</a></li>
+            </ul>
+          </div>
+          <!-- Main content -->
+          <div class="component-container">
+            <h1 class="component-title">Images</h1>
+            <div class="component-desc">
+                
+            </div>  
+            <!-- Components -->
+            <div class="component-content">
+              <div class="component-heading">Round and Square Image</div>
+              <div class="component-subHeading">  
+              Images with Default dimension of 200px X 200px.            
+              </div>
+              <!-- Round Image-->
+              <div class="example-live">                                
+                 <img class="img-md round-img" src="https://images.unsplash.com/photo-1643408875993-d7566153dd89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY0MzgwMTk1Mw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="Bitcon-image">
+                 <img  class="img-md square-img" src="https://images.unsplash.com/photo-1642260170475-55c93e1f7fbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY0MjQ3MjMwOQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="3D-image">                               
+              </div>
+              </div>
+               <div class="example-code">
+                <pre>
+                 <code class="html hljs xml">
+                   <img class="img-md round-img" src="paste Image url here" alt="image">   
+                   <img class="img-md square-img" src="paste Image url here" alt="image">                       
+                  </code>
+                 </pre>
+              </div> 
+              
+             
+            <!-- Responsive Image -->
+              <div class="component-heading">Responsive Image</div>
+              <div class="component-subHeading">
+                Responsive Image is the one that fits to cover the container it is present in.
+                Try resizing the browser window,
+              </div>
+              <div class="example-live ">
+                <div class="img-wrapper">
+                    <img class="resp-img" src="https://images.unsplash.com/photo-1642186132417-675a005d259e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY0MzgwMzYxMw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="Burj-khalifa 3D-image">
+                </div> 
+              </div>
+                <div class="example-code">
+                <pre>
+                  <code class="html hljs xml">
+                   <img class="resp-img" src="Paste image url" alt="">
+                  </code>
+                </pre>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+      integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+    <script src="../../js/codeblock.js"></script>
+  </body>
+</html>
