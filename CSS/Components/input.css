@@ -1,0 +1,35 @@
+.input-text {
+  padding: 0.8rem;
+  border: 1px solid;
+  border-radius: 4px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.input-text:hover,
+.input-text:focus {
+  border-color: var(--primary-color);
+}
+.error > input {
+  border: 1px solid var(--danger-color);
+}
+.error-msg {
+  color: var(--danger-color);
+}
+.input-info {
+  margin-top: 0;
+}
+.input-radio input,
+.input-checkbox input {
+  cursor: pointer;
+}
+.disabled input {
+  cursor: not-allowed;
+}
+.input-radio label,
+.input-checkbox label {
+  display: flex;
+  align-items: center;
+}
