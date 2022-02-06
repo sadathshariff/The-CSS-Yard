@@ -63,6 +63,14 @@
   align-items: center;
   justify-content: space-between;
 }
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-links li {
+  margin: 0 1rem;
+  font-weight: 500;
+}
 .nav-header {
   font-weight: 600;
   font-size: 1.5rem;
