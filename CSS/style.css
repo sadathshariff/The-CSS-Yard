@@ -44,10 +44,10 @@
   justify-content: space-between;
   margin-top: 3rem;
 }
-.mr-auto {
+.mr-right-auto {
   margin-right: auto;
 }
-.ml-auto {
+.ml-left-auto {
   margin-left: auto;
 }
 /* Components Css */
