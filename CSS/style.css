@@ -4,30 +4,79 @@
 
 @import url("./Components/index.css");
 
+/* Docs- Getting started CSS */
+.gap {
+  margin-bottom: 2rem;
+}
+.list-heading {
+  padding: 1rem;
+  font-weight: 600;
+}
+.list-components {
+  padding-inline-start: 0;
+}
+.list-components a {
+  display: flex;
+  align-items: center;
+}
+.list-components li {
+  padding: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+.list-components li:hover {
+  background-color: var(--primary-color);
+  color: var(--off-white);
+  border-radius: 0 0 50% 0;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+}
+.active {
+  color: var(--primary-color);
+}
+.code {
+  color: var(--primary-color);
+}
+.next-pre-btns {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 500;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.mr-right-auto {
+  margin-right: auto;
+}
+.ml-left-auto {
+  margin-left: auto;
+}
 /* Components Css */
 .container {
   min-height: 100vh;
   width: 90%;
   margin: auto;
-  border: 1px solid black;
 }
 
 .navbar {
-  /* width: 100%; */
   padding: 2rem 1.2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* border: 1px solid red; */
+}
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-links li {
+  margin: 0 1rem;
+  font-weight: 500;
 }
 .nav-header {
   font-weight: 600;
   font-size: 1.5rem;
 }
-
 .content {
   margin-top: 20px;
-  /* border: 1px solid blue; */
   display: flex;
   width: 100%;
 }
@@ -38,7 +87,6 @@
 }
 .component-container {
   flex: 1 1 0%;
-  /* border: 1px solid yellow; */
   margin: 0 1rem;
 }
 .component-title {
@@ -67,4 +115,76 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.example-code {
+  height: max-content;
+}
+
+.menu-div {
+  display: flex;
+  justify-content: flex-end;
+  visibility: hidden;
+}
+.side-nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#menu-close {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .side-nav {
+    display: none;
+  }
+  .show-navbar {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    background: #fff;
+    width: 100vw;
+    overflow: auto;
+    scroll-behavior: smooth;
+    z-index: 1;
+    transition: all 1s ease;
+  }
+
+  #menu-btn,
+  #menu-close {
+    visibility: visible;
+  }
+
+  .content {
+    margin: auto;
+    width: 100%;
+  }
+
+  .component-title {
+    font-size: 1.6rem;
+  }
+
+  .component-subHeading {
+    font-size: 1.2rem;
+  }
+
+  .component-heading {
+    font-size: 1.2rem;
+  }
+
+  .example-code {
+    display: none;
+  }
+  .page-link {
+    display: block;
+  }
 }
