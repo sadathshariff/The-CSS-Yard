@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The CSS Yard: Input</title>
+    <title>The CSS Yard: List</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
@@ -76,61 +76,117 @@
         </div>
         <!-- Main content -->
         <div class="component-container">
-          <h1 class="component-title">Navbar</h1>
+          <h1 class="component-title">List</h1>
           <div class="component-subHeading">
-            Navbar is mainly used in web-app to give access for navigation to
-            the user for the different section of web-app.
+            List is used to show related items collectively.
           </div>
 
           <!-- Components -->
           <div class="component-content">
-            <div class="component-heading">Simple Navbar</div>
-            <!-- Navbar -->
+            <div class="component-heading">Simple List</div>
+            <!-- List -->
             <div class="example-live">
-              <div class="nav-container">
-                <nav class="navbar-container">
-                  <h1 class="logo">
-                    <a href="">Brand Name </a>
-                  </h1>
-
-                  <div class="nav-item-links">
-                    <ul>
-                      <li class="nav-item"><a href="">Home</a></li>
-                      <li class="nav-item"><a href="">About</a></li>
-                      <li class="nav-item"><a href="">Contact</a></li>
-                    </ul>
-                  </div>
-                </nav>
+              <div class="list-container">
+                <ul class="list">
+                  <h3 class="list-label">Options</h3>
+                  <li>Item one</li>
+                  <li>Item two</li>
+                  <li>Item three</li>
+                  <li>Item four</li>
+                  <li>Item five</li>
+                </ul>
               </div>
             </div>
           </div>
           <div class="example-code">
             <pre>
               <code class="html hljs xml"> 
-                <div class="nav-container">
-                  <nav class="navbar-container">                    
-                      <h1 class="logo">
-                        <a href="">Brand Name </a>
-                      </h1>                    
-                    <div class="nav-item-links">
-                      <ul>
-                        <li class="nav-item"><a href="">Home</a></li>
-                        <li class="nav-item"><a href="">About</a></li>
-                        <li class="nav-item"><a href="">Contact</a></li>
-                      </ul>
-                    </div>
-                  </nav>
-                </div>                                    
+                <div class="list-container">
+                    <ul class="list">
+                      <h3 class="list-label">Options</h3>
+                      <li>Item one</li>
+                      <li>Item two</li>
+                      <li>Item three</li>
+                      <li>Item four</li>
+                      <li>Item five</li>
+                    </ul>
+                  </div>                                
+              </code>
+            </pre>
+          </div>
+          <div class="component-heading">Stacked List</div>
+          <div class="example-live">
+            <div class="list-container">
+              <ul class="list stackedlist">
+                <h3 class="list-label">Comments</h3>
+                <li>
+                  <img
+                    class="avatar avatar-md"
+                    src="../../assets/male_avatar.svg"
+                    alt="Male avatar"
+                  />
+                  Nice Work
+                </li>
+                <li>
+                  <img
+                    class="avatar avatar-md"
+                    src="../../assets/male_avatar.svg"
+                    alt="Male avatar"
+                  />
+                  Keep it up
+                </li>
+                <li>
+                  <img
+                    class="avatar avatar-md"
+                    src="../../assets/male_avatar.svg"
+                    alt="Male avatar"
+                  />
+                  Good Job
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="example-code">
+            <pre>
+              <code class="html hljs xml"> 
+                <div class="list-container">
+                    <ul class="list stackedlist">
+                        <h3 class="list-label">Comments</h3>
+                        <li>
+                          <img
+                            class="avatar avatar-md"
+                            src="Paste Image Url"
+                            alt="Male avatar"
+                          />
+                          
+                        </li>
+                        <li>
+                          <img
+                            class="avatar avatar-md"
+                            src="Paste Image Url"
+                            alt="Male avatar"
+                          />
+                          
+                        </li>
+                        <li>
+                          <img
+                            class="avatar avatar-md"
+                            src="Paste Image Url"
+                            alt="Male avatar"
+                          />
+                         
+                        </li>
+                      </ul> 
+                  </div>                                
               </code>
             </pre>
           </div>
           <div class="next-pre-btns">
-            <a href="../inputs/input.html" class="mr-right-auto">
+            <a href="../navbar/navbar.html" class="mr-right-auto">
               <span><i class="fas fa-chevron-left"></i></span>
-              Input
+              Navbar
             </a>
-            <a href="../Lists/list.html" class="mr-left-auto">
-              List
+            <a href="" class="mr-left-auto">
               <span><i class="fas fa-chevron-right"></i></span>
             </a>
           </div>
