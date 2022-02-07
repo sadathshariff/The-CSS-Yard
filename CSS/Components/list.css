@@ -1,7 +1,7 @@
 .list-container {
   width: 15rem;
   height: max-content;
-  background-color: #fff;
+  background-color: var(--white-color);
   padding: 0.5rem 0;
 }
 .list-label {
