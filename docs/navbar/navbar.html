@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The CSS Yard: Input</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css"
+      integrity="sha512-i5X6Fdn/ZqvGSqPrdMa3FgcpXM/Nr6YccSKFYT93zljl/HZDEpvBbE5Pxp91eiWGccZLrL/LDQJd7fjTRYsVaA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../../CSS/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="header">
+          <a href="" class="nav-header"> The CSS Yard </a>
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a href="../docs/get-started.html">Docs</a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/sadathshariff/The-CSS-Yard"
+              target="_blank"
+              >Github</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="menu-div">
+        <button class="btn btn-primary btn-float" id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="content">
+        <div class="side-nav" id="menu">
+          <div class="side-nav-link">
+            <h2 class="list-heading">Get Started</h2>
+            <button class="btn btn-icon" id="menu-close">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+
+          <ul class="list-components">
+            <li class="active">
+              <a href="../get-started.html">Installation</a>
+            </li>
+          </ul>
+          <h2 class="list-heading">Components</h2>
+          <ul class="list-components">
+            <li><a href="../alert/alert.html">Alert</a></li>
+            <li>
+              <a href="../avatar/avatar.html">Avatar</a>
+            </li>
+            <li><a href="../badges/badge.html">Badges</a></li>
+            <li>
+              <a href="../buttons/button.html">Buttons</a>
+            </li>
+            <li><a href="../cards/card.html">Cards</a></li>
+            <li><a href="../images/image.html">Images</a></li>
+            <li><a href="../inputs/input.html">Input</a></li>
+            <li><a href="../navbar/navbar.html">Navbar</a></li>
+            <li><a href="../lists/list.html">List</a></li>
+            <li><a href="../toast/toast.html">Toast</a></li>
+            <li><a href="../typography/typography.html">Typography</a></li>
+          </ul>
+        </div>
+        <!-- Main content -->
+        <div class="component-container">
+          <h1 class="component-title">Navbar</h1>
+          <div class="component-subHeading">
+            Navbar is mainly used in web-app to give access for navigation to
+            the user for the different section of web-app.
+          </div>
+
+          <!-- Components -->
+          <div class="component-content">
+            <div class="component-heading">Simple Navbar</div>
+            <!-- Navbar -->
+            <div class="example-live">
+              <div class="nav-container">
+                <nav class="navbar-container">
+                  <h1 class="logo">
+                    <a href="">Brand Name </a>
+                  </h1>
+
+                  <div class="nav-item-links">
+                    <ul>
+                      <li class="nav-item"><a href="">Home</a></li>
+                      <li class="nav-item"><a href="">About</a></li>
+                      <li class="nav-item"><a href="">Contact</a></li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="example-code">
+            <pre>
+              <code class="html hljs xml"> 
+                <div class="nav-container">
+                  <nav class="navbar-container">                    
+                      <h1 class="logo">
+                        <a href="">Brand Name </a>
+                      </h1>                    
+                    <div class="nav-item-links">
+                      <ul>
+                        <li class="nav-item"><a href="">Home</a></li>
+                        <li class="nav-item"><a href="">About</a></li>
+                        <li class="nav-item"><a href="">Contact</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>                                    
+              </code>
+            </pre>
+          </div>
+          <div class="next-pre-btns">
+            <a href="../inputs/input.html" class="mr-right-auto">
+              <span><i class="fas fa-chevron-left"></i></span>
+              Input
+            </a>
+            <a href="" class="mr-left-auto">
+              <span><i class="fas fa-chevron-right"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+      integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+    <script src="../../js/codeblock.js"></script>
+    <script src="../../js/sidebar.js"></script>
+  </body>
+</html>
