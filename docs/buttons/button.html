@@ -23,15 +23,55 @@
           <div class="header">
             <a href="" class="nav-header"> The CSS Yard </a>
           </div>
+          <ul class="nav-links">
+            <li>
+              <a href="../docs/get-started.html">Docs</a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/sadathshariff/The-CSS-Yard"
+                target="_blank"
+                >Github</a
+              >
+            </li>
+          </ul>
         </nav>
+        <div class="menu-div">
+          <button class="btn btn-primary btn-float" id="menu-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
         <div class="content">
-          <div class="side-nav">
-            <h2>Components</h2>
-            <ul>
+          <div class="side-nav" id="menu">
+            <div class="side-nav-link">
+              <h2 class="list-heading">Get Started</h2>
+              <button class="btn btn-icon" id="menu-close">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+  
+            <ul class="list-components">
+              <li class="active">
+                <a href="../get-started.html">Installation</a>
+              </li>
+            </ul>
+            <h2 class="list-heading">Components</h2>
+            <ul class="list-components">
               <li><a href="../alert/alert.html">Alert</a></li>
-              <li><a href="../avatar/avatar.html">Avatar</a></li>
+              <li>
+                <a href="../avatar/avatar.html">Avatar</a>
+              </li>
               <li><a href="../badges/badge.html">Badges</a></li>
-              <li><a href="../buttons/button.html">Buttons</a></li>
+              <li>
+                <a href="../buttons/button.html">Buttons</a>
+              </li>
+              <li><a href="../cards/card.html">Cards</a></li>
+              <li><a href="../images/image.html">Images</a></li>
+              <li><a href="../inputs/input.html">Input</a></li>
+              <li><a href="../navbar/navbar.html">Navbar</a></li>
+              <li><a href="../lists/list.html">List</a></li>
+              <li><a href="../toast/toast.html">Toast</a></li>
+              <li><a href="../typography/typography.html">Typography</a></li>
             </ul>
           </div>
           <!-- Main content -->
@@ -48,7 +88,7 @@
                You add the following class btn followed by the variant  
               </div>
               <!-- Basic Button -->
-              <div class="example-live">            
+              <div class="example-live flex-wrap">            
                 <button type="button" class="btn btn-primary">Primary</button>
                 <button type="button" class="btn btn-secondary">Secondary</button>
                 <button type="button" class="btn btn-success">Success</button>
@@ -71,7 +111,7 @@
               <div class="component-heading">Outline Button</div>
               <div class="component-subHeading">   
               </div>
-              <div class="example-live">
+              <div class="example-live  flex-wrap">
                 <button type="button" class="btn btn-outline-primary">Primary</button>
                 <button type="button" class="btn btn-outline-secondary">Secondary</button>
                 <button type="button" class="btn btn-outline-success">Success</button>
@@ -94,7 +134,7 @@
               <div class="component-subHeading">
             
               </div>
-              <div class="example-live ">
+              <div class="example-live flex-wrap">
                 <button type="button" class="btn btn-raised btn-primary">Primary</button>
                 <button type="button" class="btn btn-raised btn-secondary">Secondary</button>
                 <button type="button" class="btn btn-raised btn-success">Success</button>
@@ -117,7 +157,7 @@
               <div class="component-subHeading">
                 
               </div>
-              <div class="example-live btn-div">
+              <div class="example-live flex-wrap">
                 <button type="button" class="btn btn-success"> Send <i class="fas fa-arrow-right"></i></button> 
                 <button type="button" class="btn btn-primary"> Save <i class="far fa-save"></i></button> 
                 <button type="button" class="btn btn-danger"> Delete <i class="fas fa-trash"></i></button> 
@@ -136,7 +176,7 @@
               <div class="component-subHeading">
                 
               </div>
-              <div class="example-live btn-div">
+              <div class="example-live ">
                 <button type="button" class="btn btn-primary"><a href="#">Link</a> </button> 
                 
               </div>
@@ -153,7 +193,7 @@
               <div class="component-heading">Floating Button</div>
               <div class="component-subHeading">    
               </div>
-              <div class="example-live ">
+              <div class="example-live flex-wrap">
                 <button type="button" class="btn btn-primary btn-float">
                   <i class="fa fa-plus"></i>
                 </button> 
@@ -185,6 +225,16 @@
              </code>
             </pre>
               </div> 
+              <div class="next-pre-btns">
+                <a href="../badges/badge.html" class="mr-right-auto">
+                  <span><i class="fas fa-chevron-left"></i></span>
+                  Badge
+                </a>
+                <a href="../cards/card.html" class="ml-left-auto">
+                  Card
+                  <span><i class="fas fa-chevron-right"></i></span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -199,5 +249,6 @@
       hljs.highlightAll();
     </script>
     <script src="../../js/codeblock.js"></script>
+    <script src="../../js/sidebar.js"></script>
   </body>
 </html>

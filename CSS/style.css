@@ -50,6 +50,15 @@
 .ml-left-auto {
   margin-left: auto;
 }
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
 /* Components Css */
 .container {
   min-height: 100vh;
@@ -124,6 +133,7 @@
   display: flex;
   justify-content: flex-end;
   visibility: hidden;
+  margin: 0.5rem 0;
 }
 .side-nav-link {
   display: flex;

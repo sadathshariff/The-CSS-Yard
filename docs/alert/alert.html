@@ -23,78 +23,141 @@
         <div class="header">
           <a href="" class="nav-header"> The CSS Yard </a>
         </div>
+        <ul class="nav-links">
+          <li>
+            <a href="../docs/get-started.html">Docs</a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/sadathshariff/The-CSS-Yard"
+              target="_blank"
+              >Github</a
+            >
+          </li>
+        </ul>
       </nav>
-      <h2>Components</h2>
-      <ul>
-        <li>Alert</li>
-      </ul>
-      <!-- Main content -->
-      <div class="component-container">
-        <!-- Components -->
-        <div class="component-content">
-          <div class="example-live">
-            <div class="alert alert-primary">
-              This is a Primary Alert--check it out!
-            </div>
-            <div class="alert alert-error">
-              This is a an Error Alert--check it out!
-            </div>
-            <div class="alert alert-success">
-              This is a Success Alert--check it out!
-            </div>
-            <div class="alert alert-warning">
-              This is a Warning Alert--check it out!
-            </div>
+      <div class="menu-div">
+        <button class="btn btn-primary btn-float" id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="content">
+        <div class="side-nav" id="menu">
+          <div class="side-nav-link">
+            <h2 class="list-heading">Get Started</h2>
+            <button class="btn btn-icon" id="menu-close">
+              <i class="fas fa-times"></i>
+            </button>
           </div>
-          <div class="example-code">
-            <pre>
-                <code class="html hljs xml">
-                  <div class="alert alert-primary">
-                      This is a Primary Alert--check it out!
-                  </div>
-                  <div class="alert alert-error">
-                    This is a an Error Alert--check it out!
-                  </div>
-                  <div class="alert alert-success">
-                    This is a Success Alert--check it out!
-                  </div>
-                  <div class="alert alert-warning">
-                    This is a Warning Alert--check it out!
-                  </div>
-                </code>
-             </pre>
+
+          <ul class="list-components">
+            <li class="active">
+              <a href="../get-started.html">Installation</a>
+            </li>
+          </ul>
+          <h2 class="list-heading">Components</h2>
+          <ul class="list-components">
+            <li><a href="../alert/alert.html">Alert</a></li>
+            <li>
+              <a href="../avatar/avatar.html">Avatar</a>
+            </li>
+            <li><a href="../badges/badge.html">Badges</a></li>
+            <li>
+              <a href="../buttons/button.html">Buttons</a>
+            </li>
+            <li><a href="../cards/card.html">Cards</a></li>
+            <li><a href="../images/image.html">Images</a></li>
+            <li><a href="../inputs/input.html">Input</a></li>
+            <li><a href="../navbar/navbar.html">Navbar</a></li>
+            <li><a href="../lists/list.html">List</a></li>
+            <li><a href="../toast/toast.html">Toast</a></li>
+            <li><a href="../typography/typography.html">Typography</a></li>
+          </ul>
+        </div>
+        <div class="component-container">
+          <h1 class="component-title">Alert</h1>
+          <div class="component-subHeading">
+            Alert is a kind of caution sign with message and highlighted
+            background to attract the user attention
           </div>
-          <div class="example-live">
-            <div class="alert outline-primary">
-              This is a Primary Alert--check it out!
+          <!-- Components -->
+          <div class="component-content">
+            <div class="component-heading">Simple Alert</div>
+            <div class="example-live flex flex-column">
+              <div class="alert alert-primary">
+                This is a Primary Alert--check it out!
+              </div>
+              <div class="alert alert-error">
+                This is a an Error Alert--check it out!
+              </div>
+              <div class="alert alert-success">
+                This is a Success Alert--check it out!
+              </div>
+              <div class="alert alert-warning">
+                This is a Warning Alert--check it out!
+              </div>
             </div>
-            <div class="alert outline-error">
-              This is a an Error Alert--check it out!
+            <div class="example-code">
+              <pre>
+                  <code class="html hljs xml">
+                    <div class="alert alert-primary">
+                        This is a Primary Alert--check it out!
+                    </div>
+                    <div class="alert alert-error">
+                      This is a an Error Alert--check it out!
+                    </div>
+                    <div class="alert alert-success">
+                      This is a Success Alert--check it out!
+                    </div>
+                    <div class="alert alert-warning">
+                      This is a Warning Alert--check it out!
+                    </div>
+                  </code>
+               </pre>
             </div>
-            <div class="alert outline-success">
-              This is a Success Alert--check it out!
+            <div class="component-heading">Outline Alert</div>
+            <div class="example-live flex flex-column">
+              <div class="alert outline-primary">
+                This is a Primary Alert--check it out!
+              </div>
+              <div class="alert outline-error">
+                This is a an Error Alert--check it out!
+              </div>
+              <div class="alert outline-success">
+                This is a Success Alert--check it out!
+              </div>
+              <div class="alert outline-warning">
+                This is a Warning Alert--check it out!
+              </div>
             </div>
-            <div class="alert outline-warning">
-              This is a Warning Alert--check it out!
+            <div class="example-code">
+              <pre>
+                  <code class="html hljs xml">
+                    <div class=" outline-primary">
+                        This is a Primary Alert--check it out!
+                    </div>
+                    <div class="outline-error">
+                      This is a an Error Alert--check it out!
+                    </div>
+                    <div class="outline-success">
+                      This is a Success Alert--check it out!
+                    </div>
+                    <div class="outline-warning">
+                      This is a Warning Alert--check it out!
+                    </div>
+                  </code>
+               </pre>
             </div>
-          </div>
-          <div class="example-code">
-            <pre>
-                <code class="html hljs xml">
-                  <div class=" outline-primary">
-                      This is a Primary Alert--check it out!
-                  </div>
-                  <div class="outline-error">
-                    This is a an Error Alert--check it out!
-                  </div>
-                  <div class="outline-success">
-                    This is a Success Alert--check it out!
-                  </div>
-                  <div class="outline-warning">
-                    This is a Warning Alert--check it out!
-                  </div>
-                </code>
-             </pre>
+            <div class="next-pre-btns">
+              <a href="../get-started.html" class="mr-right-auto">
+                <span><i class="fas fa-chevron-left"></i></span>
+                Get Started
+              </a>
+              <a href="../avatar/avatar.html" class="ml-left-auto">
+                Avatar
+                <span><i class="fas fa-chevron-right"></i></span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -109,5 +172,6 @@
       hljs.highlightAll();
     </script>
     <script src="../../js/codeblock.js"></script>
+    <script src="../../js/sidebar.js"></script>
   </body>
 </html>
