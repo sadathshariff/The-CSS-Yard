@@ -1,0 +1,30 @@
+.rating {
+  display: flex;
+}
+.rating-icon,
+.rating-num {
+  font-size: 1.8rem;
+  padding: 0 0.5rem;
+  cursor: pointer;
+}
+
+.filled-star {
+  color: gold;
+}
+.rating-div {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5rem;
+  color: var(--white-color);
+}
+.rating-bad {
+  background-color: var(--danger-color);
+}
+.rating-medium {
+  background-color: var(--warning-color);
+}
+.rating-good {
+  background-color: var(--success-color);
+}
