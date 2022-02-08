@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The CSS Yard: List</title>
+    <title>The CSS Yard: Toast</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
@@ -76,118 +76,63 @@
         </div>
         <!-- Main content -->
         <div class="component-container">
-          <h1 class="component-title">List</h1>
+          <h1 class="component-title">Toast</h1>
           <div class="component-subHeading">
-            List is used to show related items collectively.
+            Toast provides simple feedback about an operation in which current
+            activity remains visible and interactive
           </div>
 
           <!-- Components -->
           <div class="component-content">
-            <div class="component-heading">Simple List</div>
-            <!-- List -->
-            <div class="example-live">
-              <div class="list-container">
-                <ul class="list">
-                  <h3 class="list-label">Options</h3>
-                  <li>Item one</li>
-                  <li>Item two</li>
-                  <li>Item three</li>
-                  <li>Item four</li>
-                  <li>Item five</li>
-                </ul>
+            <div class="component-heading">Simple Toast</div>
+            <!-- Toast -->
+            <div class="example-live flex-column">
+              <div class="toast toast-error">
+                This is a Error message
+                <i class="ml-left-auto fas fa-exclamation"></i>
+              </div>
+              <div class="toast toast-warning">
+                This is a Warning message
+                <i class="ml-left-auto fas fa-exclamation-triangle"></i>
+              </div>
+              <div class="toast toast-info">
+                This is a Info message
+                <i class="ml-left-auto fas fa-times"></i>
+              </div>
+              <div class="toast toast-success">
+                This is a Success message
+                <i class="ml-left-auto far fa-check-circle"></i>
               </div>
             </div>
           </div>
           <div class="example-code">
             <pre>
-              <code class="html hljs xml"> 
-                <div class="list-container">
-                    <ul class="list">
-                      <h3 class="list-label">Options</h3>
-                      <li>Item one</li>
-                      <li>Item two</li>
-                      <li>Item three</li>
-                      <li>Item four</li>
-                      <li>Item five</li>
-                    </ul>
-                  </div>                                
-              </code>
-            </pre>
-          </div>
-          <div class="component-heading">Stacked List</div>
-          <div class="example-live">
-            <div class="list-container">
-              <ul class="list stackedlist">
-                <h3 class="list-label">Comments</h3>
-                <li>
-                  <img
-                    class="avatar avatar-md"
-                    src="../../assets/male_avatar.svg"
-                    alt="Male avatar"
-                  />
-                  Nice Work
-                </li>
-                <li>
-                  <img
-                    class="avatar avatar-md"
-                    src="../../assets/male_avatar.svg"
-                    alt="Male avatar"
-                  />
-                  Keep it up
-                </li>
-                <li>
-                  <img
-                    class="avatar avatar-md"
-                    src="../../assets/male_avatar.svg"
-                    alt="Male avatar"
-                  />
-                  Good Job
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="example-code">
-            <pre>
-              <code class="html hljs xml"> 
-                <div class="list-container">
-                    <ul class="list stackedlist">
-                        <h3 class="list-label">Comments</h3>
-                        <li>
-                          <img
-                            class="avatar avatar-md"
-                            src="Paste Image Url"
-                            alt="Male avatar"
-                          />
-                          
-                        </li>
-                        <li>
-                          <img
-                            class="avatar avatar-md"
-                            src="Paste Image Url"
-                            alt="Male avatar"
-                          />
-                          
-                        </li>
-                        <li>
-                          <img
-                            class="avatar avatar-md"
-                            src="Paste Image Url"
-                            alt="Male avatar"
-                          />
-                         
-                        </li>
-                      </ul> 
-                  </div>                                
+              <code class="html hljs xml">
+                <div class="toast toast-error">
+                  This is a Error message
+                  <i class="ml-left-auto fas fa-exclamation"></i>
+                </div>
+                <div class="toast toast-warning">
+                  This is a Warning message
+                  <i class="ml-left-auto fas fa-exclamation-triangle"></i>
+                </div>
+                <div class="toast toast-info">
+                  This is a Info message
+                  <i class="ml-left-auto fas fa-times"></i>
+                </div>
+                <div class="toast toast-success">
+                  This is a Success message
+                  <i class="ml-left-auto far fa-check-circle"></i>
+                </div>                                                  
               </code>
             </pre>
           </div>
           <div class="next-pre-btns">
-            <a href="../navbar/navbar.html" class="mr-right-auto">
+            <a href="../Lists/list.html" class="mr-right-auto">
               <span><i class="fas fa-chevron-left"></i></span>
-              Navbar
+              List
             </a>
-            <a href="../toast/toast.html" class="mr-left-auto">
-              Toast
+            <a href="" class="mr-left-auto">
               <span><i class="fas fa-chevron-right"></i></span>
             </a>
           </div>
