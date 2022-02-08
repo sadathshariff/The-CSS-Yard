@@ -1,0 +1,27 @@
+.rating {
+  display: flex;
+}
+.rating-icon,
+.rating-num {
+  font-size: 1.3rem;
+  padding: 0.3rem;
+  cursor: pointer;
+  color: var(--white-color);
+}
+
+.filled-icon {
+  color: gold;
+}
+.rating-div {
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.rating-bad {
+  background-color: var(--danger-color);
+}
+.rating-medium {
+  background-color: var(--warning-color);
+}
+.rating-good {
+  background-color: var(--success-color);
+}
