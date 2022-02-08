@@ -1,0 +1,35 @@
+.headline-1 {
+  font-size: 3rem;
+}
+.headline-2 {
+  font-size: 2rem;
+}
+.headline-3 {
+  font-size: 1.5rem;
+}
+.headline-4 {
+  font-size: 1rem;
+}
+.headline-5 {
+  font-size: 0.8rem;
+}
+
+.small-text-1 {
+  font-size: 1.7rem;
+}
+.small-text-2 {
+  font-size: 1.3rem;
+}
+
+.small-text-3 {
+  font-size: 1rem;
+}
+.small-text-4 {
+  font-size: 0.8rem;
+}
+.gray-text {
+  color: var(--gray-color);
+}
+.text-center {
+  text-align: center;
+}
