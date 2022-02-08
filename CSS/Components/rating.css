@@ -6,7 +6,7 @@
   font-size: 1.3rem;
   padding: 0.3rem;
   cursor: pointer;
-  text-align: center;
+  color: var(--white-color);
 }
 
 .filled-icon {
@@ -14,8 +14,7 @@
 }
 .rating-div {
   border-radius: 5px;
-  padding: 0.3rem;
-  color: var(--white-color);
+  padding: 0.5rem;
 }
 .rating-bad {
   background-color: var(--danger-color);
