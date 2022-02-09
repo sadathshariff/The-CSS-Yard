@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The CSS Yard: Toast</title>
+    <title>The CSS Yard: Grid</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
@@ -71,72 +71,64 @@
             <li><a href="../navbar/navbar.html">Navbar</a></li>
             <li><a href="../lists/list.html">List</a></li>
             <li><a href="../rating/rating.html">Rating</a></li>
-            <li class="active"><a href="../toast/toast.html">Toast</a></li>
+            <li><a href="../toast/toast.html">Toast</a></li>
             <li><a href="../typography/typography.html">Typography</a></li>
-            <li><a href="../grid/grid.html">Grid</a></li>
+            <li class="active"><a href="../grid/grid.html">Grid</a></li>
           </ul>
         </div>
         <!-- Main content -->
         <div class="component-container">
-          <h1 class="component-title">Toast</h1>
+          <h1 class="component-title">Grid</h1>
           <div class="component-subHeading">
-            Toast provides simple feedback about an operation in which current
-            activity remains visible and interactive
+            Grid creates complex responsive web design grid layouts more easily
+            and consistently across browsers.
           </div>
 
           <!-- Components -->
           <div class="component-content">
-            <div class="component-heading">Simple Toast</div>
-            <!-- Toast -->
-            <div class="example-live flex-column">
-              <div class="toast toast-error">
-                This is a Error message
-                <i class="ml-left-auto fas fa-exclamation"></i>
-              </div>
-              <div class="toast toast-warning">
-                This is a Warning message
-                <i class="ml-left-auto fas fa-exclamation-triangle"></i>
-              </div>
-              <div class="toast toast-info">
-                This is a Info message
-                <i class="ml-left-auto fas fa-times"></i>
-              </div>
-              <div class="toast toast-success">
-                This is a Success message
-                <i class="ml-left-auto far fa-check-circle"></i>
+            <div class="component-heading">Two Column Grid 2:2</div>
+            <!-- Grid 2:2 -->
+            <div class="example-live">
+              <div class="grid grid-col-2 grid-gap-1">
+                <div class="grid-item">Item</div>
+                <div class="grid-item">Item</div>
               </div>
             </div>
           </div>
           <div class="example-code">
             <pre>
-              <code class="html hljs xml">
-                <div class="toast toast-error">
-                  This is a Error message
-                  <i class="ml-left-auto fas fa-exclamation"></i>
-                </div>
-                <div class="toast toast-warning">
-                  This is a Warning message
-                  <i class="ml-left-auto fas fa-exclamation-triangle"></i>
-                </div>
-                <div class="toast toast-info">
-                  This is a Info message
-                  <i class="ml-left-auto fas fa-times"></i>
-                </div>
-                <div class="toast toast-success">
-                  This is a Success message
-                  <i class="ml-left-auto far fa-check-circle"></i>
-                </div>                                                  
+              <code class="html hljs xml"> 
+                <div class="grid grid-col-2 grid-gap-1">
+                  <div class="grid-item">Item</div>
+                  <div class="grid-item">Item</div>
+                </div>                       
               </code>
             </pre>
           </div>
+          <div class="component-heading">Three Column Grid 3:3</div>
+          <div class="example-live">
+            <div class="grid grid-col-3 grid-gap-1">
+              <div class="grid-item">Item</div>
+              <div class="grid-item">Item</div>
+              <div class="grid-item">Item</div>
+            </div>
+          </div>
+          <div class="example-code">
+            <pre>
+              <code class="html hljs xml"> 
+                <div class="grid grid-col-3 grid-gap-1">
+                  <div class="grid-item">Item</div>
+                  <div class="grid-item">Item</div>
+                  <div class="grid-item">Item</div>
+                </div>                          
+              </code>
+            </pre>
+          </div>
+
           <div class="next-pre-btns">
-            <a href="../rating/rating.html" class="mr-right-auto">
+            <a href="../typography/typography.html" class="mr-right-auto">
               <span><i class="fas fa-chevron-left"></i></span>
-              Rating
-            </a>
-            <a href="../typography/typography.html" class="mr-left-auto">
               Typography
-              <span><i class="fas fa-chevron-right"></i></span>
             </a>
           </div>
         </div>
