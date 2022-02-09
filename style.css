@@ -1,0 +1,55 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.item {
+  padding: 1rem;
+}
+.hero-content {
+  margin: 3rem auto;
+}
+.hero-image {
+  display: block;
+  max-width: 100%;
+  max-inline-size: 100%;
+  block-size: auto;
+}
+.hero-heading {
+  font-size: 4rem;
+  color: var(--primary-color);
+}
+.hero {
+  text-align: center;
+}
+.hero-text {
+  font-size: 1.5rem;
+}
+.btns-div {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+.links ul {
+  padding-inline-start: 0;
+  display: flex;
+  padding: 1rem 0.5rem;
+}
+.links li {
+  padding: 0 1rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.heartColor {
+  color: red;
+}
+@media screen and (max-width: 800px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
