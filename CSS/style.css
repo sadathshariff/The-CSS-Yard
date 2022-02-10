@@ -123,7 +123,10 @@
   background-color: var(--off-white);
   max-width: 100%;
   padding: 1.5rem;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5); */
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px, rgba(0, 0, 0, 0.05) 0px 4px 4px,
+    rgba(0, 0, 0, 0.05) 0px 4px 4px, rgba(0, 0, 0, 0.05) 0px 8px 8px,
+    rgba(0, 0, 0, 0.05) 0px 16px 16px;
   margin-bottom: 1.2rem;
   display: flex;
   justify-content: space-around;
@@ -131,6 +134,14 @@
 }
 .example-code {
   height: max-content;
+  width: 100%;
+}
+pre {
+  white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
+  white-space: -pre-wrap; /* Opera */
+  white-space: -o-pre-wrap; /* Opera */
+  white-space: pre-wrap; /* CSS3 – Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
+  word-wrap: break-word; /* IE 5.5+ */
 }
 
 .menu-div {
