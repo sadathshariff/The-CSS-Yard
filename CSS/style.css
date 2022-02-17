@@ -67,10 +67,13 @@
 }
 
 .navbar {
-  padding: 2rem 1.2rem;
+  padding: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: var(--primary-color);
+  color: var(--off-white);
+  border-radius: 6px;
 }
 .nav-links {
   display: flex;
@@ -80,9 +83,7 @@
   margin: 0 1rem;
   font-weight: 600;
 }
-.nav-links li:hover {
-  color: var(--primary-color);
-}
+
 .nav-header {
   font-weight: 600;
   font-size: 1.5rem;
@@ -210,9 +211,6 @@ pre {
     font-size: 1.2rem;
   }
 
-  .example-code {
-    display: none;
-  }
   .page-link {
     display: block;
   }

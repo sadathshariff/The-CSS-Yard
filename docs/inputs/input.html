@@ -91,17 +91,17 @@
                 <form>
                   <div class="input">
                     <label for="">Username*</label>
-                    <input type="text" name="" class="input-text" />
+                    <input type="text" name="" class="input-text" required/>
                   </div>
             
                   <div class="input error">
                     <label for="">Password*</label>
-                    <input type="password" name="" class="input-text" />
+                    <input type="password" name="" class="input-text"  required/>
                     <p class="input-info error-msg">Password is incorrect</p>
                   </div>
                   <div class="input">
                     <label for="">Email address*</label>
-                    <input type="email" name="" class="input-text" />
+                    <input type="email" name="" class="input-text" required/>
                     <p class="input-info">We'll never share your email with anyone else.</p>
                   </div>
                   
@@ -111,24 +111,27 @@
               </div>
                <div class="example-code">
                 <pre>
-                 <code class="html hljs xml">
-                  <form>                    
-                    <div class="input">
-                        <label for="">Username*</label>
-                        <input type="text" name="" class="input-text" />
-                    </div>                
-                    <div class="input error">
-                        <label for="">Password*</label>
-                        <input type="password" name="" class="input-text" />
-                        <p class="input-info error-msg">Password is incorrect</p>
-                    </div>
-                    <div class="input">
-                        <label for="">Email address*</label>
-                        <input type="email" name="" class="input-text" />
-                        <p class="input-info">We'll never share your email with anyone else.</p>
-                    </div>                                         
-                  </form>                    
-                  </code>
+<code class="html hljs xml">
+<form>                    
+  <div class="input">
+    <label for="">Username*</label>
+    <input type="text" name="" class="input-text" required/>
+  </div>  
+
+  <div class="input error">
+    <label for="">Password*</label>
+    <input type="password" name="" class="input-text" required/>
+    <p class="input-info error-msg">Password is incorrect</p>
+  </div>
+
+  <div class="input">
+    <label for="">Email address*</label>
+    <input type="email" name="" class="input-text" required/>
+    <p class="input-info">We'll never share your email with anyone else.</p>
+  </div> 
+                                          
+</form>                    
+</code>
                  </pre>
               </div> 
               
@@ -136,8 +139,7 @@
             <!-- Input Checkbox -->
               <div class="component-heading">Radio Buttons</div>
               <div class="component-subHeading">
-                Radio butons are used to select from a set of given values for a particular field
-                
+                Radio butons are used to select from a set of given values for a particular field                
               </div>
               <div class="example-live ">
                 <div class="input-radio">
@@ -161,26 +163,30 @@
               </div>
                 <div class="example-code">
                 <pre>
-                  <code class="html hljs xml">
-                    <div class="input-radio">
-                      <label for="radio1">
-                        <input type="radio" name="radio" id="radio1" checked />
-                        Checked
-                      </label>
-                    </div>
-                    <div class="input-radio">
-                      <label for="radio2">
-                        <input type="radio" name="radio" id="radio2" unChecked />
-                        Unchecked
-                      </label>
-                    </div>
-                    <div class="input-radio disabled">
-                      <label for="radio1">
-                        <input type="radio" name="radio" id="radio1" disabled />
-                        Disabled
-                      </label>
-                    </div> 
-                  </code>
+<code class="html hljs xml">
+
+<div class="input-radio">
+ <label for="radio1">
+   <input type="radio" name="radio" id="radio1" checked />
+   Checked
+ </label>
+</div>
+
+<div class="input-radio">
+  <label for="radio2">
+    <input type="radio" name="radio" id="radio2" unChecked />
+    Unchecked
+  </label>
+</div>
+
+<div class="input-radio disabled">
+  <label for="radio1">
+    <input type="radio" name="radio" id="radio1" disabled />
+    Disabled
+  </label>
+</div> 
+
+</code>
                 </pre>
               </div>
               
@@ -211,26 +217,29 @@
               </div>
                 <div class="example-code">
                 <pre>
-                  <code class="html hljs xml">
-                    <div class="input-checkbox">
-                      <label for="checkbox1">
-                        <input type="checkbox" name="checkbox" id="checkbox1" checked />
-                        Checked
-                      </label>
-                    </div>
-                    <div class="input-checkbox">
-                      <label for="checkbox2">
-                        <input type="checkbox" name="checkbox" id="checkbox2" unChecked />
-                        Unchecked
-                      </label>
-                    </div>
-                    <div class="input-checkbox disabled">
-                      <label for="checkbox3">
-                        <input type="checkbox" name="checkbox" id="checkbox3" disabled />
-                        Disabled
-                      </label>
-                    </div>
-                  </code>
+<code class="html hljs xml">
+
+<div class="input-checkbox">
+  <label for="checkbox1">
+    <input type="checkbox" name="checkbox" id="checkbox1" checked />
+    Checked
+  </label>
+</div>
+
+<div class="input-checkbox">
+  <label for="checkbox2">
+    <input type="checkbox" name="checkbox" id="checkbox2" unChecked />
+    Unchecked
+  </label>
+</div>
+
+<div class="input-checkbox disabled">
+  <label for="checkbox3">
+    <input type="checkbox" name="checkbox" id="checkbox3" disabled />
+    Disabled
+  </label>
+</div>
+</code>
                 </pre>
               </div>
               <div class="next-pre-btns">
