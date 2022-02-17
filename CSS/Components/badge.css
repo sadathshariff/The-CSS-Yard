@@ -4,7 +4,9 @@
   font-size: 2.3rem;
   margin: 0 1rem;
 }
-
+.badge-div img {
+  position: relative;
+}
 .badge-number {
   font-size: 0.9rem;
   background-color: var(--primary-color);
@@ -23,10 +25,11 @@
   border-radius: 50%;
   left: 20px;
   top: 0px;
+
   background-color: var(--danger-color);
 }
 .badge-profile {
-  bottom: 5px;
+  bottom: 0px;
   right: 15px;
   position: absolute;
   height: 15px;
