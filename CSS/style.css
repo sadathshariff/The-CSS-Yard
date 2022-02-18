@@ -4,6 +4,105 @@
 
 @import url("./Components/index.css");
 
+/* Components Css */
+.container {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+.navbar {
+  padding: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  color: var(--off-white);
+  border-radius: 6px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-links li {
+  margin: 0 1rem;
+  font-weight: 600;
+}
+
+.nav-header {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.content {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+}
+.side-nav {
+  flex-basis: 250px;
+  margin: 1rem;
+  padding: 1rem;
+}
+.component-container {
+  flex: 1;
+  margin: 0 1rem;
+  padding: 0 1rem;
+  width: 100%;
+}
+.component-title {
+  margin: 0.5rem 0;
+}
+.component-desc {
+  font-size: 1.2rem;
+  margin: 0.2rem 0.3rem;
+  font-weight: 500;
+}
+.component-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+.component-subHeading {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.example-live {
+  background-color: var(--off-white);
+  max-width: 100%;
+  padding: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px, rgba(0, 0, 0, 0.05) 0px 4px 4px,
+    rgba(0, 0, 0, 0.05) 0px 4px 4px, rgba(0, 0, 0, 0.05) 0px 8px 8px,
+    rgba(0, 0, 0, 0.05) 0px 16px 16px;
+  margin-bottom: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.example-code {
+  height: max-content;
+  width: 100%;
+}
+pre {
+  white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
+  white-space: -pre-wrap; /* Opera */
+  white-space: -o-pre-wrap; /* Opera */
+  white-space: pre-wrap; /* CSS3 – Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
+  word-wrap: break-word; /* IE 5.5+ */
+}
+
+.menu-div {
+  display: flex;
+  justify-content: flex-end;
+  visibility: hidden;
+  margin: 0.5rem 0;
+}
+.side-nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#menu-close {
+  visibility: hidden;
+}
+
 /* Docs- Getting started CSS */
 .gap {
   margin-bottom: 2rem;
@@ -58,112 +157,6 @@
 }
 .flex-wrap {
   flex-wrap: wrap;
-}
-/* Components Css */
-.container {
-  min-height: 100vh;
-  width: 90%;
-  margin: auto;
-}
-
-.navbar {
-  padding: 1.2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: var(--primary-color);
-  color: var(--off-white);
-  border-radius: 6px;
-}
-.nav-links {
-  display: flex;
-  justify-content: space-evenly;
-}
-.nav-links li {
-  margin: 0 1rem;
-  font-weight: 600;
-}
-
-.nav-header {
-  font-weight: 600;
-  font-size: 1.5rem;
-}
-.content {
-  margin-top: 20px;
-  display: flex;
-  width: 100%;
-}
-
-.side-nav {
-  flex: 0 0 250px;
-  margin: 1rem;
-  padding-bottom: 1rem;
-}
-.component-container {
-  flex: 1 1 0%;
-  margin: 0 1rem;
-}
-.component-title {
-  margin: 0.5rem 0;
-}
-.component-desc {
-  font-size: 1.2rem;
-  margin: 0.2rem 0.3rem;
-  font-weight: 500;
-}
-.component-heading {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin: 0.5rem 0;
-}
-.component-subHeading {
-  font-size: 1.2rem;
-  font-weight: 400;
-}
-.example-live {
-  background-color: var(--off-white);
-  max-width: 100%;
-  padding: 1.5rem;
-  /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5); */
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px, rgba(0, 0, 0, 0.05) 0px 4px 4px,
-    rgba(0, 0, 0, 0.05) 0px 4px 4px, rgba(0, 0, 0, 0.05) 0px 8px 8px,
-    rgba(0, 0, 0, 0.05) 0px 16px 16px;
-  margin-bottom: 1.2rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.example-code {
-  height: max-content;
-  width: 100%;
-}
-pre {
-  white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
-  white-space: -pre-wrap; /* Opera */
-  white-space: -o-pre-wrap; /* Opera */
-  white-space: pre-wrap; /* CSS3 – Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
-  word-wrap: break-word; /* IE 5.5+ */
-}
-
-.menu-div {
-  display: flex;
-  justify-content: flex-end;
-  visibility: hidden;
-  margin: 0.5rem 0;
-}
-.side-nav-link {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#menu-close {
-  visibility: hidden;
-}
-
-@media screen and (max-width: 600px) {
-  .container {
-    width: 100%;
-  }
 }
 
 @media screen and (max-width: 800px) {
