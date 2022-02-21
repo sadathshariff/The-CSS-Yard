@@ -2,6 +2,9 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+.nav-links {
+  align-items: center;
+}
 .item {
   padding: 1rem;
 }
@@ -35,6 +38,7 @@ main {
 .links {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .links ul {
   padding-inline-start: 0;

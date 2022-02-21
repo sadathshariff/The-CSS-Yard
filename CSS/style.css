@@ -1,14 +1,22 @@
 @import url("./basic-styling/color.css");
 @import url("./basic-styling/reset.css");
 @import url("./basic-styling/typography.css");
-
+@import url("./basic-styling/darkmode.css");
 @import url("./Components/index.css");
 
 /* Components Css */
 .container {
   min-height: 100vh;
   scroll-behavior: smooth;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
+/* Dark Theme */
+.dark-theme {
+  --background-color: var(--black-color);
+  --text-color: var(--off-white);
+}
+
 .navbar {
   padding: 1.2rem;
   display: flex;
@@ -21,6 +29,7 @@
 .nav-links {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 .nav-links li {
   margin: 0 1rem;
@@ -66,6 +75,7 @@
 }
 .example-live {
   background-color: var(--off-white);
+  color: var(--black-color);
   max-width: 100%;
   padding: 1.5rem;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px, rgba(0, 0, 0, 0.05) 0px 4px 4px,
@@ -101,6 +111,11 @@ pre {
 }
 #menu-close {
   visibility: hidden;
+}
+.dark-mode-div {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 0;
 }
 
 /* Docs- Getting started CSS */
@@ -141,7 +156,7 @@ pre {
   font-size: 1.2rem;
   font-weight: 500;
   justify-content: space-between;
-  margin: 5rem 0;
+  margin: 3rem 0;
 }
 .mr-right-auto {
   margin-right: auto;
@@ -170,7 +185,8 @@ pre {
     bottom: 0;
     left: 0;
     height: 100vh;
-    background: #fff;
+    background: var(--background-color);
+    color: var(--text-color);
     width: 100vw;
     overflow: auto;
     scroll-behavior: smooth;
