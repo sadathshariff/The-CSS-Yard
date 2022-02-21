@@ -26,6 +26,7 @@ The CSS Yard is a Component library built using HTML and Vanilla CSS to build th
 - [Toast](https://thecssyard.netlify.app/docs/toast/toast.html)
 - [Typography](https://thecssyard.netlify.app/docs/typography/typography.html)
 - [Grid](https://thecssyard.netlify.app/docs/grid/grid.html)
+- [Modal](https://thecssyard.netlify.app/docs/modal/modal.html)
 
 # Live Link
 
@@ -35,7 +36,12 @@ The CSS Yard is a Component library built using HTML and Vanilla CSS to build th
 
 ### HomePage
 
-![TheCSSYard Homepage](https://user-images.githubusercontent.com/51914072/154624905-0ad1cef6-a9f9-46c5-b6e6-adfd5a9b6536.PNG)
+- Light Mode
+
+  ![TheCSSYard Homepage](https://user-images.githubusercontent.com/51914072/154913837-54af2d6c-e3f2-47cd-b367-e8ab0274287f.PNG)
+
+- Dark Mode
+  ![TheCSSYard Dark mode Homepage](https://user-images.githubusercontent.com/51914072/154913986-4067fb72-4ba0-47ab-97bc-318385efe7f8.PNG)
 
 ## How to Use?
 
