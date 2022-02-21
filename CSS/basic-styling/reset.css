@@ -86,3 +86,7 @@ a {
 html {
   scroll-behavior: smooth;
 }
+
+ul {
+  padding-inline-start: 0;
+}

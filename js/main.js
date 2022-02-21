@@ -1,3 +1,10 @@
+let codeBlocks = document.querySelectorAll("pre code");
+codeBlocks.forEach((codeBlock) => {
+  let code = codeBlock.innerHTML;
+  code = code.replaceAll("<", "&lt;");
+  codeBlock.innerHTML = code;
+});
+
 const sideNav = document.querySelector(".side-nav");
 const menuBtn = document.querySelector("#menu-btn");
 const closeMenuBtn = document.querySelector("#menu-close");
